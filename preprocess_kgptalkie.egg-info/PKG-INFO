@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: preprocess_kgptalkie
+Version: 0.1
+Summary: This is a text preprocessing package
+Author: Laxmi Kant
+Author-email: udemy@kgptalkie.com
+Classifier: Programming Language :: Python :: 3
+Classifier: LICENSE :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Text Preprocessing Python Package
+
+
+#### Course Link: [Introduction to NLP](https://bit.ly/intro_nlp)
+
+This Python package is created by [KGPTalkie](https://youtube.com/kgptalkie). It provides various text preprocessing utilities for natural language processing (NLP) tasks.
+
+### Installation
+You can install this package using pip as follows:
+```
+pip install preprocess_kgptalkie
+```
+
+### Requirements
+You need to install these python packages.
+```
+pip install spacy
+python -m spacy download en_core_web_sm
+pip install nltk
+pip install beautifulsoup4
+pip install textblob
+```
