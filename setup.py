@@ -9,7 +9,7 @@ with open('requirements.txt') as fp:
 setuptools.setup(
     name='preprocess_kgptalkie',
     include_package_data=True,
-    version='0.1',
+    version='0.11',
     author='Laxmi Kant',
     author_email='udemy@kgptalkie.com',
     description='This is a text preprocessing package',
@@ -18,7 +18,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "LICENSE :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"
     ],
     python_requires='>=3.7',
