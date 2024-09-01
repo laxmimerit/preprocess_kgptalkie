@@ -14,9 +14,14 @@ pip install preprocess_kgptalkie
 ### Requirements
 You need to install these python packages.
 ```
-pip install spacy
-python -m spacy download en_core_web_sm
-pip install nltk
-pip install beautifulsoup4
-pip install textblob
+pip install spacy==3.7.6
+python -m spacy download en_core_web_sm==3.7.1
+pip install nltk==3.9.1
+pip install beautifulsoup4==3.2.2
+pip install textblob==0.18.0.post0
 ```
+
+
+
+
+
