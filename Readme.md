@@ -181,20 +181,17 @@ Here’s an example of how you might use several functions together to clean tex
 ```python
 import preprocess_kgptalkie as ps
 
-def clean_text(text):
-    text = ps.to_lower_case(text)
-    text = ps.contraction_to_expansion(text)
-    text = ps.remove_emails(text)
-    text = ps.remove_urls(text)
-    text = ps.remove_html_tags(text)
-    text = ps.remove_special_chars(text)
-    text = ps.lemmatize(text)
-    return text
-
-text = "I'm loving this NLP tutorial! Contact me at example@example.com. Visit https://example.com."
-cleaned_text = clean_text(text)
+text = "I'm loving this NLP tutorial! Contact me at udemy@kgptalkie.com. Visit https://kgptalkie.com."
+cleaned_text = ps.clean_text(text)
 print(cleaned_text)
 # Output: i am loving this nlp tutorial contact me at visit
+```
+
+### One Short Feature Extraction
+```python
+import preprocess_kgptalkie as ps
+
+ps.extract_features("I love NLP")
 ```
 
 ## Notes
