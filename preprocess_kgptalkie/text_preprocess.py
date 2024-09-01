@@ -22,7 +22,7 @@ contractions = json.load(open(fpath))
 
 nlp = spacy.load('en_core_web_sm')
 
-def download_nltk_packages():
+def download_nltk_data():
     nltk.download('stopwords')
     nltk.download('averaged_perceptron_tagger')
     nltk.download('tagsets')
