@@ -1,4 +1,5 @@
 spacy==3.7.6
 textblob==0.18.0.post0
-beautifulsoup4==3.2.2
+beautifulsoup4==4.13.4
 nltk==3.9.1
+lxml==4.9.3
